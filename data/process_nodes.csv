@@ -1,0 +1,11 @@
+company,company_type,node_label,node_nm,first_risk_year,first_volume_year,transistor_type,technology_variant ,application_focus ,source,source_note,confidence,notes
+,,22nm,22,,2012,,,,,,,
+Intel,IDM,14nm,14,,2014,FinFET,,,Process Technology History - Intel - WikiChip,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,Intel 3/Intel 3-T/Intel 3-E/Intel 3-PT,,,2024,FinFET,,,,,,
+,,Intel 20A,,,,GAA,,,,,,

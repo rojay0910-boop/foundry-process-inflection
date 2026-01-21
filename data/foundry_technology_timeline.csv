@@ -1,0 +1,33 @@
+company,company_type,year,technology_stage,transistor_architecture,power_delivery,tech_label,source_type,y_position,notes
+TSMC,Foundry,2011,Planar,Planar,Frontside_PD,N28,official,3,28nm GP portfolio era (Planar)
+TSMC,Foundry,2014,Planar,Planar,Frontside_PD,N20,official,3,20nm volume production (Planar; double-patterning era)
+TSMC,Foundry,2015,FinFET,FinFET,Frontside_PD,N16/16FF,official,3,16nm FinFET family begins (baseline 16FF)
+TSMC,Foundry,2016,FinFET,FinFET,Frontside_PD,16FFC,official,3,Cost-optimized 16nm FinFET Compact enters production
+TSMC,Foundry,2017,FinFET,FinFET,Frontside_PD,12FFC+,official,3,12nm derivative within N16 family (optical shrink / enhancements)
+TSMC,Foundry,2018,FinFET,FinFET,Frontside_PD,N7,official,3,7nm FinFET volume production starts
+TSMC,Foundry,2019,FinFET,FinFET,Frontside_PD,N7+,official,3,EUV introduced (N7+ as EUV-enhanced 7nm)
+TSMC,Foundry,2020,FinFET,FinFET,Frontside_PD,N5,official,3,5nm FinFET volume production (EUV-heavy node)
+TSMC,Foundry,2022,FinFET,FinFET,Frontside_PD,N3,official,3,3nm FinFET high-volume era (family variants extend later)
+TSMC,Foundry,2025,GAA,Nanosheet,BSP,N2,official,3,GAA (nanosheet) + BSP conceptually paired for next-gen scaling
+Intel,IDM,2012,FinFET,FinFET,Frontside_PD,22nm,public,1,First FinFET
+Intel,IDM,2014,FinFET,FinFET,Frontside_PD,14nm,public,1,Intel FinFET era (legacy anchor point)
+Intel,IDM,2019,FinFET,FinFET,Frontside_PD,10nm,public,1,Transition toward Intel 7 naming later
+Intel,IDM,2021,FinFET,FinFET,Frontside_PD,Intel 7,public,1,Brand rename (FinFET generation)
+Intel,IDM,2023,FinFET,FinFET,Frontside_PD,Intel 4,public,1,Advanced FinFET node (EUV adoption era)
+Intel,IDM,2024,GAA,RibbonFET,BSP,20A,public,1,First Intel GAA generation + backside power (PowerVia concept)
+Intel,IDM,2025,GAA,RibbonFET,BSP,18A,public,1,Refined angstrom-era GAA path (conceptual continuation)
+Samsung,Foundry,2012,Planar,Planar,Frontside_PD,28RF,public,2,
+Samsung,Foundry,2014,FinFET,FinFET,Frontside_PD,14nm (14LPE/14LPP),official,2,14nm FinFET mass production starts (mobile-focused variants)
+Samsung,Foundry,2015,FD-SOI,FD-SOI,Frontside_PD,28FDS,official,2,FD-SOI branch continues at 28nm for low-power / mixed markets
+Samsung,Foundry,2017,FinFET,FinFET,Frontside_PD,10LPP,public,2,
+Samsung,Foundry,2018,FinFET,FinFET,Frontside_PD,8nm,official,2,Best pre-EUV FinFET node (specialty extensions like RF/eMRAM)
+Samsung,Foundry,2019,FinFET,FinFET,Frontside_PD,SF7,official,2,7nm EUV era begins (EUV enters production)
+Samsung,Foundry,2021,FinFET,FinFET,Frontside_PD,SF5,official,2,5nm FinFET in production (HPC/Auto/IoT messaging)
+Samsung,Foundry,2021,FinFET,FinFET,Frontside_PD,SF4,official,2,4nm FinFET family starts mass production (mobile)
+Samsung,Foundry,2023,FinFET,FinFET,Frontside_PD,SF4P,public,2,4nm variant introduced (performance-driven)
+Samsung,Foundry,2024,FinFET,FinFET,Frontside_PD,SF4X,public,2,4nm HPC-oriented variant slated for production window
+Samsung,Foundry,2025,FinFET,FinFET,Frontside_PD,SF4A,public,2,4nm automotive-oriented variant expected production window
+Samsung,Foundry,2022,GAA,MBCFET,Frontside_PD,SF3E,public,2,GAA introduced (MBCFET branded); early generation availability
+Samsung,Foundry,2024,GAA,MBCFET,Frontside_PD,SF3,public,2,Refined 3nm GAA generation (improved PPA vs SF3E)
+Samsung,Foundry,2025,GAA,MBCFET,Frontside_PD,SF2,public,2,2nm GAA generation planned for mass production timing
+Samsung,Foundry,2027,GAA,MBCFET,BSP,SF2Z,public,2,2nm HPC/AI variant with backside power delivery (BSPDN) planned
