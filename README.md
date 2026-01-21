@@ -16,8 +16,9 @@ The core artifact of this project is a timeline visualization in which:
 - Key attributes such as transistor architecture and power-delivery strategy are emphasized  
 
 This layout allows direct visual comparison without relying on marketing-driven node labels alone.  
-The visualization highlights periods of architectural stability, moments of forced transition, and divergence in strategic timing between foundries.
+The visualization highlights periods of architectural stability, moments of forced transition, and divergence in strategic timing between foundries.  
 
+![Foundry-Level Process Inflection Timeline](visualizations/exports/foundry_process_timeline.png)
 ---
 
 ## Research Questions
