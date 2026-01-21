@@ -1,0 +1,696 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20253.25.1210.1815                               -->
+<workbook original-version='18.1' source-build='2025.3.1 (20253.25.1210.1815)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='foundry_technology_timeline' inline='true' name='federated.12z2xn91ai4wfn1csfkxp1v9vun9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='foundry_technology_timeline' name='textscan.1dqczaa16uzv6m1h4xx6r04fx046'>
+            <connection class='textscan' directory='C:/Users/rojay/OneDrive/ドキュメント/GitHub_sql/foundry-process-inflection/data' filename='foundry_technology_timeline.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1dqczaa16uzv6m1h4xx6r04fx046' name='foundry_technology_timeline.csv' table='[foundry_technology_timeline#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ja_JP' separator=','>
+            <column datatype='string' name='company' ordinal='0' />
+            <column datatype='string' name='company_type' ordinal='1' />
+            <column datatype='integer' name='year' ordinal='2' />
+            <column datatype='string' name='technology_stage' ordinal='3' />
+            <column datatype='string' name='transistor_architecture' ordinal='4' />
+            <column datatype='string' name='power_delivery' ordinal='5' />
+            <column datatype='string' name='tech_label' ordinal='6' />
+            <column datatype='string' name='source_type' ordinal='7' />
+            <column datatype='integer' name='y_position' ordinal='8' />
+            <column datatype='string' name='notes' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[foundry_technology_timeline.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ja&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;￥&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ja_JP&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>company</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[company]</local-name>
+            <parent-name>[foundry_technology_timeline.csv]</parent-name>
+            <remote-alias>company</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LJA_RJP' />
+            <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>company_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[company_type]</local-name>
+            <parent-name>[foundry_technology_timeline.csv]</parent-name>
+            <remote-alias>company_type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LJA_RJP' />
+            <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[foundry_technology_timeline.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>technology_stage</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[technology_stage]</local-name>
+            <parent-name>[foundry_technology_timeline.csv]</parent-name>
+            <remote-alias>technology_stage</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LJA_RJP' />
+            <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>transistor_architecture</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[transistor_architecture]</local-name>
+            <parent-name>[foundry_technology_timeline.csv]</parent-name>
+            <remote-alias>transistor_architecture</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LJA_RJP' />
+            <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>power_delivery</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[power_delivery]</local-name>
+            <parent-name>[foundry_technology_timeline.csv]</parent-name>
+            <remote-alias>power_delivery</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LJA_RJP' />
+            <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tech_label</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tech_label]</local-name>
+            <parent-name>[foundry_technology_timeline.csv]</parent-name>
+            <remote-alias>tech_label</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LJA_RJP' />
+            <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[source_type]</local-name>
+            <parent-name>[foundry_technology_timeline.csv]</parent-name>
+            <remote-alias>source_type</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LJA_RJP' />
+            <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>y_position</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[y_position]</local-name>
+            <parent-name>[foundry_technology_timeline.csv]</parent-name>
+            <remote-alias>y_position</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>notes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[notes]</local-name>
+            <parent-name>[foundry_technology_timeline.csv]</parent-name>
+            <remote-alias>notes</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LJA_RJP' />
+            <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='foundry_technology_timeline.csv' datatype='table' name='[__tableau_internal_object_id__].[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]' role='measure' type='quantitative' />
+      <column caption='Company' datatype='string' name='[company]' role='dimension' type='nominal' />
+      <column caption='Company Type' datatype='string' name='[company_type]' role='dimension' type='nominal' />
+      <column caption='Notes' datatype='string' name='[notes]' role='dimension' type='nominal' />
+      <column caption='Power Delivery' datatype='string' name='[power_delivery]' role='dimension' type='nominal' />
+      <column caption='Source Type' datatype='string' name='[source_type]' role='dimension' type='nominal' />
+      <column caption='Tech Label' datatype='string' name='[tech_label]' role='dimension' type='nominal' />
+      <column caption='Technology Stage' datatype='string' name='[technology_stage]' role='dimension' type='nominal' />
+      <column caption='Transistor Architecture' datatype='string' name='[transistor_architecture]' role='dimension' type='nominal' />
+      <column caption='Y Position' datatype='integer' name='[y_position]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[company]' derivation='None' name='[none:company:nk]' pivot='key' type='nominal' />
+      <column-instance column='[technology_stage]' derivation='None' name='[none:technology_stage:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/rojay/AppData/Local/Temp/TableauTemp/#TableauTemp_12li2hl0m9j17s149fq8a1oc2cf6.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='01/21/2026 05:08:23 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>company</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[company]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>company</remote-alias>
+              <ordinal>0</ordinal>
+              <family>foundry_technology_timeline.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LJA' />
+              <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>company_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[company_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>company_type</remote-alias>
+              <ordinal>1</ordinal>
+              <family>foundry_technology_timeline.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LJA' />
+              <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>2</ordinal>
+              <family>foundry_technology_timeline.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>technology_stage</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[technology_stage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>technology_stage</remote-alias>
+              <ordinal>3</ordinal>
+              <family>foundry_technology_timeline.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LJA' />
+              <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>transistor_architecture</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[transistor_architecture]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>transistor_architecture</remote-alias>
+              <ordinal>4</ordinal>
+              <family>foundry_technology_timeline.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LJA' />
+              <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>power_delivery</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[power_delivery]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>power_delivery</remote-alias>
+              <ordinal>5</ordinal>
+              <family>foundry_technology_timeline.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LJA' />
+              <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>tech_label</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[tech_label]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>tech_label</remote-alias>
+              <ordinal>6</ordinal>
+              <family>foundry_technology_timeline.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LJA' />
+              <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>source_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[source_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>source_type</remote-alias>
+              <ordinal>7</ordinal>
+              <family>foundry_technology_timeline.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LJA' />
+              <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>y_position</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[y_position]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>y_position</remote-alias>
+              <ordinal>8</ordinal>
+              <family>foundry_technology_timeline.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>notes</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[notes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>notes</remote-alias>
+              <ordinal>9</ordinal>
+              <family>foundry_technology_timeline.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LJA' />
+              <object-id>[foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:company:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;TSMC&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Samsung&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Intel&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' field='[none:technology_stage:nk]' type='shape'>
+            <map to=':filled/asterisk'>
+              <bucket>&quot;GAA&quot;</bucket>
+            </map>
+            <map to=':filled/circle'>
+              <bucket>&quot;Planar&quot;</bucket>
+            </map>
+            <map to=':filled/square'>
+              <bucket>&quot;FinFET&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;FD-SOI&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Japan&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='foundry_technology_timeline.csv' id='foundry_technology_timeline.csv_DE3F54E955C14D7F9959914B05E118C4'>
+            <properties context=''>
+              <relation connection='textscan.1dqczaa16uzv6m1h4xx6r04fx046' name='foundry_technology_timeline.csv' table='[foundry_technology_timeline#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ja_JP' separator=','>
+                  <column datatype='string' name='company' ordinal='0' />
+                  <column datatype='string' name='company_type' ordinal='1' />
+                  <column datatype='integer' name='year' ordinal='2' />
+                  <column datatype='string' name='technology_stage' ordinal='3' />
+                  <column datatype='string' name='transistor_architecture' ordinal='4' />
+                  <column datatype='string' name='power_delivery' ordinal='5' />
+                  <column datatype='string' name='tech_label' ordinal='6' />
+                  <column datatype='string' name='source_type' ordinal='7' />
+                  <column datatype='integer' name='y_position' ordinal='8' />
+                  <column datatype='string' name='notes' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Foundry-Level Process Inflection Timeline</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='foundry_technology_timeline' name='federated.12z2xn91ai4wfn1csfkxp1v9vun9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12z2xn91ai4wfn1csfkxp1v9vun9'>
+            <column-instance column='[notes]' derivation='Attribute' name='[attr:notes:nk]' pivot='key' type='nominal' />
+            <column-instance column='[power_delivery]' derivation='Attribute' name='[attr:power_delivery:nk]' pivot='key' type='nominal' />
+            <column-instance column='[transistor_architecture]' derivation='Attribute' name='[attr:transistor_architecture:nk]' pivot='key' type='nominal' />
+            <column caption='Company' datatype='string' name='[company]' role='dimension' type='nominal' />
+            <column-instance column='[company]' derivation='None' name='[none:company:nk]' pivot='key' type='nominal' />
+            <column-instance column='[tech_label]' derivation='None' name='[none:tech_label:nk]' pivot='key' type='nominal' />
+            <column-instance column='[technology_stage]' derivation='None' name='[none:technology_stage:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='None' name='[none:year:qk]' pivot='key' type='quantitative' />
+            <column caption='Notes' datatype='string' name='[notes]' role='dimension' type='nominal' />
+            <column caption='Power Delivery' datatype='string' name='[power_delivery]' role='dimension' type='nominal' />
+            <column-instance column='[y_position]' derivation='Sum' name='[sum:y_position:qk]' pivot='key' type='quantitative' />
+            <column caption='Tech Label' datatype='string' name='[tech_label]' role='dimension' type='nominal' />
+            <column caption='Technology Stage' datatype='string' name='[technology_stage]' role='dimension' type='nominal' />
+            <column caption='Transistor Architecture' datatype='string' name='[transistor_architecture]' role='dimension' type='nominal' />
+            <column caption='Y Position' datatype='integer' name='[y_position]' role='measure' type='quantitative' />
+            <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[none:technology_stage:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Planar&quot;</bucket>
+              <bucket>&quot;FD-SOI&quot;</bucket>
+              <bucket>&quot;FinFET&quot;</bucket>
+              <bucket>&quot;GAA&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[none:company:nk]' />
+              <shape column='[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[none:technology_stage:nk]' />
+              <text column='[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[none:tech_label:nk]' />
+              <tooltip column='[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[attr:transistor_architecture:nk]' />
+              <tooltip column='[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[attr:power_delivery:nk]' />
+              <tooltip column='[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[attr:notes:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.5492265224456787' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[sum:y_position:qk]</rows>
+        <cols>[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[none:year:qk]</cols>
+      </table>
+      <simple-id uuid='{408ABECF-85FD-42A8-AC37-795FCAF47A22}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[none:company:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[none:technology_stage:nk]' type='shape' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[none:company:nk]</field>
+            <field>[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[none:notes:nk]</field>
+            <field>[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[none:power_delivery:nk]</field>
+            <field>[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[none:tech_label:nk]</field>
+            <field>[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[none:technology_stage:nk]</field>
+            <field>[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[none:transistor_architecture:nk]</field>
+            <field>[federated.12z2xn91ai4wfn1csfkxp1v9vun9].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{99129451-25FD-4CF5-9898-CC4B9B5B0E25}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      bO3/A611XXJCmqNfAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
