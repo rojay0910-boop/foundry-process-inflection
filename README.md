@@ -25,19 +25,19 @@ The visualization highlights periods of architectural stability, moments of forc
 
 This analysis is guided by the following research questions:
 
-### RQ1: Process Node Evolution (Technology Timeline)  
+- Process Node Evolution (Technology Timeline)  
 How have advanced semiconductor process nodes evolved over time when viewed through a foundry-level technology timeline rather than nominal node naming?
 
-### RQ2: Technology Leadership and Differentiation  
+- Technology Leadership and Differentiation  
 How do leading foundries differ in their technology trajectories, and what defines process leadership beyond node labels?
 
-### RQ3: Supply Chain Roles and Node Relationships  
+- Supply Chain Roles and Node Relationships  
 How do supply-chain dependencies—such as tooling, materials, IP, and ecosystem readiness—influence the timing and feasibility of advanced-node transitions?
 
-### RQ4: Process Nodes and Industry Concentration  
+- Process Nodes and Industry Concentration  
 Does rising process complexity contribute to structural concentration within the foundry industry, and if so, how?
 
-### RQ5: Data Limitations and Analytical Assumptions  
+- Data Limitations and Analytical Assumptions  
 What limitations arise from using publicly available data to analyze semiconductor process-node trends?
 
 ---
@@ -147,7 +147,4 @@ Potential extensions of this project include:
 ---
 
 ## References
-1. https://www.tsmc.com/english/dedicatedFoundry/technology/logic
-2. https://semiconductor.samsung.com/foundry/process-technology/logic-node/
-3. https://semiwiki.com/semiconductor-manufacturers/321400-samsung-versus-tsmc-update-2022/
-4. https://www.aminext.blog/
+All sources used in this project are publicly available and cited at the data or note level within the repository.
