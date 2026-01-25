@@ -9,13 +9,6 @@ TSMC,Foundry,2019,FinFET,FinFET,Frontside_PD,N7+,official,3,EUV introduced (N7+ 
 TSMC,Foundry,2020,FinFET,FinFET,Frontside_PD,N5,official,3,5nm FinFET volume production (EUV-heavy node)
 TSMC,Foundry,2022,FinFET,FinFET,Frontside_PD,N3,official,3,3nm FinFET high-volume era (family variants extend later)
 TSMC,Foundry,2025,GAA,Nanosheet,BSP,N2,official,3,GAA (nanosheet) + BSP conceptually paired for next-gen scaling
-Intel,IDM,2012,FinFET,FinFET,Frontside_PD,22nm,public,1,First FinFET
-Intel,IDM,2014,FinFET,FinFET,Frontside_PD,14nm,public,1,Intel FinFET era (legacy anchor point)
-Intel,IDM,2019,FinFET,FinFET,Frontside_PD,10nm,public,1,Transition toward Intel 7 naming later
-Intel,IDM,2021,FinFET,FinFET,Frontside_PD,Intel 7,public,1,Brand rename (FinFET generation)
-Intel,IDM,2023,FinFET,FinFET,Frontside_PD,Intel 4,public,1,Advanced FinFET node (EUV adoption era)
-Intel,IDM,2024,GAA,RibbonFET,BSP,20A,public,1,First Intel GAA generation + backside power (PowerVia concept)
-Intel,IDM,2025,GAA,RibbonFET,BSP,18A,public,1,Refined angstrom-era GAA path (conceptual continuation)
 Samsung,Foundry,2012,Planar,Planar,Frontside_PD,28RF,public,2,
 Samsung,Foundry,2014,FinFET,FinFET,Frontside_PD,14nm (14LPE/14LPP),official,2,14nm FinFET mass production starts (mobile-focused variants)
 Samsung,Foundry,2015,FD-SOI,FD-SOI,Frontside_PD,28FDS,official,2,FD-SOI branch continues at 28nm for low-power / mixed markets
@@ -31,3 +24,10 @@ Samsung,Foundry,2022,GAA,MBCFET,Frontside_PD,SF3E,public,2,GAA introduced (MBCFE
 Samsung,Foundry,2024,GAA,MBCFET,Frontside_PD,SF3,public,2,Refined 3nm GAA generation (improved PPA vs SF3E)
 Samsung,Foundry,2025,GAA,MBCFET,Frontside_PD,SF2,public,2,2nm GAA generation planned for mass production timing
 Samsung,Foundry,2027,GAA,MBCFET,BSP,SF2Z,public,2,2nm HPC/AI variant with backside power delivery (BSPDN) planned
+Intel,IDM,2012,FinFET,FinFET,Frontside_PD,22nm,public,1,First FinFET
+Intel,IDM,2014,FinFET,FinFET,Frontside_PD,14nm,public,1,Intel FinFET era (legacy anchor point)
+Intel,IDM,2019,FinFET,FinFET,Frontside_PD,10nm,public,1,Transition toward Intel 7 naming later
+Intel,IDM,2021,FinFET,FinFET,Frontside_PD,Intel 7,public,1,Brand rename (FinFET generation)
+Intel,IDM,2023,FinFET,FinFET,Frontside_PD,Intel 4,public,1,Advanced FinFET node (EUV adoption era)
+Intel,IDM,2024,GAA,RibbonFET,BSP,20A,public,1,First Intel GAA generation + backside power (PowerVia concept)
+Intel,IDM,2025,GAA,RibbonFET,BSP,18A,public,1,Refined angstrom-era GAA path (conceptual continuation)
