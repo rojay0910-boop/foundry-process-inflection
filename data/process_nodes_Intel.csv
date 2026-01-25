@@ -1,5 +1,5 @@
 company,company_type,node_label,node_nm,year,transistor_architecture,technology_variant,packaging_feature,application_focus,notes,source,confidence
-,,Intel 7,10,2021,,,,,,https://en.wikichip.org/wiki/intel/process\nhttps://web.archive.org/web/20210727235415/https://www.techbang.com/posts/88719-intel-announced-a-new-cpu-process-roadmap-10nm-changed-to-7,
+,,Intel 7,10,2021,,,,,,https://en.wikichip.org/wiki/intel/process;https://web.archive.org/web/20210727235415/https://www.techbang.com/posts/88719-intel-announced-a-new-cpu-process-roadmap-10nm-changed-to-7,
 ,,Intel 4,7nm,2023,,,,,,https://en.wikichip.org/wiki/intel/process,
 Intel,IDM,Intel 3,~3nm,2024,FinFET,Standard,None,General Purpose,Intel 3 is the final FinFET-based node; ~10% density gain and ~18% perf-W improvement over Intel 4,Computex 2024IEEE VLSI,High
 Intel,IDM,Intel 3-T,~3nm,2024,FinFET,3D-TSV,TSV (3D stacking),HPC;AI;Imaging,Variant optimized for 3D stacking with TSV; targets heterogeneous integration of compute and memory,Computex 2024;IEEE VLSI,High
