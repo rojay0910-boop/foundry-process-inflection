@@ -1,7 +1,12 @@
 company,company_type,node_label,node_nm,year,transistor_architecture,technology_variant,packaging_feature,application_focus,notes,source,confidence
-,,Intel 7,10,2021,,,,,,https://en.wikichip.org/wiki/intel/process;https://web.archive.org/web/20210727235415/https://www.techbang.com/posts/88719-intel-announced-a-new-cpu-process-roadmap-10nm-changed-to-7,
-,,Intel 4,7nm,2023,,,,,,https://en.wikichip.org/wiki/intel/process,
-Intel,IDM,Intel 3,~3nm,2024,FinFET,Standard,None,General Purpose,Intel 3 is the final FinFET-based node; ~10% density gain and ~18% perf-W improvement over Intel 4,Computex 2024IEEE VLSI,High
-Intel,IDM,Intel 3-T,~3nm,2024,FinFET,3D-TSV,TSV (3D stacking),HPC;AI;Imaging,Variant optimized for 3D stacking with TSV; targets heterogeneous integration of compute and memory,Computex 2024;IEEE VLSI,High
-Intel,IDM,Intel 3-E,~3nm,2024,FinFET,Extended IO,None,IO;Controllers,Includes enhanced IO and analog interfaces; suited for chipsets and controller products,Computex 2024 / IEEE VLSI,High
-Intel,IDM,Intel 3-PT,~3nm,2024,FinFET,Performance Tuned,TSV (9µm pitch),HPC;AI,High-performance variant with 9µm TSV pitch enabling denser 3D stacking; targets AI and HPC processors,Computex 2024 / IEEE VLSI,High
+Intel,IDM,22nm,22,2012,FinFET,,,,,,
+Intel,IDM,14nm,14,2014,FinFET,,,,,,
+Intel,IDM,Intel 10,10,2019,FinFET,,,,,,
+Intel,IDM,Intel 7,10,2021,FinFET,Performance-optimized,,,,https://en.wikichip.org/wiki/intel/process;https://web.archive.org/web/20210727235415/https://www.techbang.com/posts/88719-intel-announced-a-new-cpu-process-roadmap-10nm-changed-to-7,
+Intel,IDM,Intel 4,7,2023,FinFET,EUV-enabled;Density-optimized,,,,https://en.wikichip.org/wiki/intel/process,
+Intel,IDM,Intel 3,~3,2024,FinFET,HPC;TSV;3D-integration,None,General Purpose,Intel 3 is the final FinFET-based node; ~10% density gain and ~18% perf-W improvement over Intel 4,Computex 2024IEEE VLSI,High
+Intel,IDM,Intel 3-T,~3,2024,FinFET,TSV;3D-integration,TSV (3D stacking),HPC;AI;Imaging,Variant optimized for 3D stacking with TSV; targets heterogeneous integration of compute and memory,Computex 2024;IEEE VLSI,High
+Intel,IDM,Intel 3-E,~3,2024,FinFET,Extended I/O ;mixed-signal,None,IO;Controllers,Includes enhanced IO and analog interfaces; suited for chipsets and controller products,Computex 2024 / IEEE VLSI,High
+Intel,IDM,Intel 3-PT,~3,2024,FinFET,HPC;performance-tuned,TSV (9µm pitch),HPC;AI,High-performance variant with 9µm TSV pitch enabling denser 3D stacking; targets AI and HPC processors,Computex 2024 / IEEE VLSI,High
+Intel,IDM,Intel 20A,3,2024,GAA,Backside Power (PowerVia),,,,,
+Intel,IDM,Intel 18A,2,2025,GAA,Backside Power (PowerVia),,,,,

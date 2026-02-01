@@ -1,0 +1,31 @@
+company,node_family,technology_variant,variant_order,transistor_architecture,euv_used,first_volume_year,application_focus,production_status,notes
+TSMC,N28,28GP,1,Planar CMOS,No,2011,General;Consumer;Mobile,Volume Production,First foundry to provide 28nm general-purpose logic process
+TSMC,N28,28HPC,2,Planar CMOS,No,2012,Smartphone;Consumer;High-Performance,Volume Production,High Performance Compact variant optimized for performance and power
+TSMC,N28,28HPC+,3,Planar CMOS,No,2013,Smartphone;Consumer;High-Performance,Volume Production,Enhanced HPC variant with improved performance and power efficiency
+TSMC,N28,28ULP,4,Planar CMOS,No,2014,IoT;Ultra-Low-Power,Volume Production,Ultra-Low Power platform widely adopted in battery-powered IoT SoCs
+TSMC,N28,28RF;28eFlash;28RRAM,4,Planar CMOS,No,2014,RF;Automotive;Embedded Memory,Volume Production,Automotive-grade and specialty technologies including RF mmWave and embedded NVM
+TSMC,N22,22ULP,5,Planar CMOS,No,2016,Image Processing;DTV;STB;Smartphone;Consumer,Volume Production,Derived from 28nm ULP with improved performance and cost efficiency
+TSMC,N22,22ULL,6,Planar CMOS,No,2017,IoT;Wearables;Ultra-Low-Leakage,Volume Production,Ultra-Low Leakage variant with ULL devices and ULL SRAM for extreme low-power applications
+TSMC,N20,20nm,7,Planar CMOS,No,2014,General;Mobile SoC,Volume Production,First foundry to enter 20nm volume production; used double patterning; fastest ramping node at TSMC
+TSMC,N16,16FF,8,FinFET,No,2014,Networking;Mobile;High-End Computing,Volume Production,First foundry to deliver fully functional 16nm FinFET customer processor
+TSMC,N16,16FFC,9,FinFET,No,2016,Cost-Optimized;General,Volume Production,FinFET Compact; optical shrink and process simplification for die cost scaling
+TSMC,N12,12FFC+,10,FinFET,No,2017,Mobile;Edge AI;IoT;Digital Consumer;Automotive,Volume Production,Enhanced gate density speed and power; foundation for N12e platform
+TSMC,N12,N12e,11,FinFET,No,2017,Ultra-Low Power;RF;Analog;eNVM;Automotive,Volume Production,Platform variant with ultra-low leakage low Vdd RF models analog enhancements and embedded NVM
+TSMC,N7,N7,12,FinFET,No,2018,Mobile;HPC;Consumer;Automotive,Volume Production,First 7nm FinFET volume production; applications expanded after initial adoption
+TSMC,N7,N7+,13,FinFET,Yes,2019,HPC;5G;Consumer;Automotive,Volume Production,First foundry process using EUV lithography; applications expanded after initial adoption
+TSMC,N6,N6,14,FinFET,Yes,2020,Smartphone;HPC;DCE,Volume Production,Enhanced 7nm-derived node
+TSMC,N6,N6e,15,FinFET,Yes,2024,Low-Power;Mobile,Volume Production,PDK completed in 2023
+TSMC,N6,N6ULP,16,FinFET,Yes,2024,Ultra-Low-Power,Volume Production,Ultra-low power optimized variant
+TSMC,N5,N5,17,FinFET,Yes,2020,Smartphone;HPC,Volume Production,First foundry 5nm FinFET in volume production; second TSMC EUV node
+TSMC,N5,N5P,18,FinFET,Yes,2021,Smartphone;HPC,Volume Production,Performance-enhanced variant
+TSMC,N4,N4P,19,FinFET,Yes,2022,General;Cost-Optimized,Volume Production,Improved power and density with cost optimization
+TSMC,N4,N4C,20,FinFET,Yes,2023,General;Cost-Optimized,Volume Production,More cost-effective variant
+TSMC,N4,N4X,21,FinFET,Yes,2023,HPC,Volume Production,HPC-tailored variant
+TSMC,N5,N5A,22,FinFET,Yes,2023,Automotive,Volume Production,Automotive-qualified variant
+TSMC,N3,N3,23,FinFET,Yes,2022,General;Automotive,High-Volume Production,First foundry to enter 3nm FinFET high-volume production; automotive qualification followed
+TSMC,N3,N3E,24,FinFET,Yes,2023,General,Volume Production,Enhanced version for better power and density
+TSMC,N3,N3P,25,FinFET,Yes,2024,General,Volume Production,Further performance-optimized variant
+TSMC,N3,N3X,26,FinFET,Yes,2024,HPC,Volume Production,HPC-tailored variant
+TSMC,N3,N3C,27,FinFET,Yes,2024,Cost-Sensitive,Volume Production,Cost-optimized variant for value-tier products
+TSMC,N2,N2,28,GAA Nanosheet,Yes,2025,General;Energy-Efficient Computing,Volume Production,First-generation nanosheet (GAA) transistor; volume production started 4Q25
+TSMC,N2,N2P,29,GAA Nanosheet,Yes,2026,General;High-Performance;Energy-Efficient Computing,Planned Volume Production,Enhanced variant with further performance and power benefits; volume production scheduled for 2H26
