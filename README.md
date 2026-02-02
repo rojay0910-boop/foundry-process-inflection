@@ -23,22 +23,15 @@ The visualization highlights periods of architectural stability, moments of forc
 
 ## Research Questions
 
-This analysis is guided by the following research questions:
+**RQ1 — Process Node Evolution (Architecture-Based Timeline)**  
+How have advanced semiconductor process nodes evolved over time when analyzed through transistor architecture transitions rather than nominal node labels?
 
-- Process Node Evolution (Technology Timeline)  
-How have advanced semiconductor process nodes evolved over time when viewed through a foundry-level technology timeline rather than nominal node naming?
+**RQ2 — Technology Leadership and Differentiation**  
+How do leading foundries differentiate their process strategies through the timing of architectural transitions and EUV adoption?
 
-- Technology Leadership and Differentiation  
-How do leading foundries differ in their technology trajectories, and what defines process leadership beyond node labels?
-
-- Supply Chain Roles and Node Relationships  
-How do supply-chain dependencies—such as tooling, materials, IP, and ecosystem readiness—influence the timing and feasibility of advanced-node transitions?
-
-- Process Nodes and Industry Concentration  
-Does rising process complexity contribute to structural concentration within the foundry industry, and if so, how?
-
-- Data Limitations and Analytical Assumptions  
-What limitations arise from using publicly available data to analyze semiconductor process-node trends?
+---
+## Scope and Analytical Constraints
+This project explicitly considers the limitations of publicly available data, including incomplete disclosures, marketing-driven narratives, and inconsistent node naming conventions.
 
 ---
 
@@ -103,16 +96,15 @@ Differences in timing reflect not just technical capability, but also strategic 
 
 ---
 
-## Supply Chain and Industry Implications
+## Industry Context (Interpretive, Not Quantitative)
 
 Advanced-node manufacturing increasingly depends on:
 
 - EUV lithography tooling availability  
-- Materials and process-integration maturity  
+- Materials readiness and process-integration maturity  
 - Co-optimization with EDA tools and customers  
 
-As complexity rises, fewer firms can sustain leading-edge development, reinforcing **structural concentration** within the foundry industry.
-
+These observations provide contextual background rather than direct analytical conclusions, as quantitative supply-chain and cost data are outside the scope of this study.
 ---
 
 ## Limitations
@@ -129,9 +121,11 @@ As a result, conclusions should be interpreted as **directional and structural**
 
 ## Conclusion
 
-Viewed through a foundry-level timeline, advanced semiconductor progress is not a steady sequence of shrinking node numbers, but a pattern of **extended architectural stability punctuated by forced structural transitions**.
+Viewed through a foundry-level timeline, advanced semiconductor progress is not a steady sequence of shrinking node numbers, 
+but a pattern of **extended architectural stability punctuated by forced structural transitions**.
 
-This framework reframes node evolution as a series of engineering trade-offs under physical, economic, and manufacturability limits—offering a clearer lens for understanding past transitions and anticipating future ones.
+This framework reframes node evolution as a series of engineering trade-offs under physical, economic, 
+and manufacturability constraints, offering a clearer lens for understanding past transitions and anticipating future ones.
 
 ---
 
@@ -142,7 +136,7 @@ Potential extensions of this project include:
 - Advanced packaging and chiplet integration timelines  
 - Post-GAA architectures such as CFET  
 - High-NA EUV adoption and ecosystem readiness  
-- Closer integration of packaging and front-end process analysis  
+- Deeper integration of front-end process and packaging analysis  
 
 ---
 
