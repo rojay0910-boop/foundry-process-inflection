@@ -105,6 +105,7 @@ Advanced-node manufacturing increasingly depends on:
 - Co-optimization with EDA tools and customers  
 
 These observations provide contextual background rather than direct analytical conclusions, as quantitative supply-chain and cost data are outside the scope of this study.
+
 ---
 
 ## Limitations
@@ -134,9 +135,7 @@ and manufacturability constraints, offering a clearer lens for understanding pas
 Potential extensions of this project include:
 
 - Advanced packaging and chiplet integration timelines  
-- Post-GAA architectures such as CFET  
 - High-NA EUV adoption and ecosystem readiness  
-- Deeper integration of front-end process and packaging analysis  
 
 ---
 
