@@ -32,23 +32,27 @@ The goal is to make **non-obvious patterns** visible—particularly long plateau
   Represents the calendar year in which a process milestone became publicly observable.
 
 - **Y-axis (Company Lane):**  
-  Each foundry is fixed on a consistent horizontal lane to preserve temporal continuity and avoid visual reordering.
+ Each foundry is assigned to a primary horizontal lane to preserve structural clarity across companies.
+ When a single foundry introduces multiple distinct process nodes within the same calendar year,
+ a slight vertical displacement (Y-axis jitter) is applied within the company lane to prevent complete overlap of marks.
+ This jitter is used solely for visual separation and does not encode differences in timing, hierarchy, or relative importance.
 
 ---
 
 ### Marks and Encodings
 
 - **Mark Type:**  
-  Each mark represents a foundry-specific process milestone.
+  Each mark represents a foundry-specific process milestone observable at a given point in time.
 
 - **Color:**  
+  Distinguishes between foundries (TSMC, Samsung, Intel).
+  
+- **Shape:**  
   Encodes the **transistor architecture** (Planar, FinFET, GAA).
 
-- **Shape / Annotation:**  
-  Used to indicate **system-level structural changes**, such as the introduction of backside power delivery.
-
 - **Labels:**  
-  Foundry-specific process names (e.g., N7, N3, 20A) are shown for traceability, not for ranking.
+  Display foundry-specific process names (e.g., N7, N3, 20A) for identification and traceability only,
+  not for ranking, ordering, or comparative evaluation.
 
 ---
 
