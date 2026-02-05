@@ -11,9 +11,9 @@ The visualizations are designed to support **structural analysis of semiconducto
 The Tableau dashboard uses a **foundry-level timeline** to examine how advanced semiconductor manufacturing has evolved over time across:
 
 - Intel  
+- Samsung
 - TSMC  
-- Samsung  
-
+  
 Instead of ranking process nodes by nominal size (e.g., 7nm, 5nm, 3nm), the visualization highlights:
 
 - Transistor architecture transitions  
