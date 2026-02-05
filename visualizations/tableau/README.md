@@ -50,6 +50,9 @@ The goal is to make **non-obvious patterns** visible—particularly long plateau
 - **Shape:**  
   Encodes the **transistor architecture** (Planar, FinFET, GAA).
 
+- **Mark Size:**
+  Indicates system-level structural changes, such as EUV adoption or the introduction of backside power delivery.
+
 - **Labels:**  
   Display foundry-specific process names (e.g., N7, N3, 20A) for identification and traceability only,
   not for ranking, ordering, or comparative evaluation.
