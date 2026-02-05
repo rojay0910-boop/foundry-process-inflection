@@ -51,7 +51,9 @@ The goal is to make **non-obvious patterns** visible—particularly long plateau
   Encodes the **transistor architecture** (Planar, FinFET, GAA).
 
 - **Mark Size:**
-  Indicates system-level structural changes, such as EUV adoption or the introduction of backside power delivery.
+  Encodes whether EUV lithography was used at the time of process introduction.
+  Larger markers indicate EUV-enabled processes, while smaller markers represent non-EUV processes.
+  Marker size reflects a binary usage status, not relative importance, performance, or production scale.
 
 - **Labels:**  
   Display foundry-specific process names (e.g., N7, N3, 20A) for identification and traceability only,
