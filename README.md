@@ -11,12 +11,9 @@ By visualizing each foundry’s process milestones on a shared timeline, this pr
 
 The core artifact of this project is a timeline visualization in which:
 
-- Each foundry is fixed on a consistent horizontal lane  
+- Each foundry is assigned to a primary horizontal lane  
 - Discrete process milestones are plotted by year  
-- Key attributes such as transistor architecture and power-delivery strategy are emphasized  
-
-This layout allows direct visual comparison without relying on marketing-driven node labels alone.  
-The visualization highlights periods of architectural stability, moments of forced transition, and divergence in strategic timing between foundries.  
+- Key attributes such as transistor architecture and EUV adoption are emphasized  
 
 ![Foundry-Level Process Inflection Timeline](visualizations/exports/foundry_process_timeline.png)
 ---
