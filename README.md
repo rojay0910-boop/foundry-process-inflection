@@ -3,19 +3,52 @@
 This project analyzes the evolution of advanced semiconductor manufacturing by using a **foundry-level technology timeline** as the primary analytical lens.  
 Rather than ranking process nodes by nominal node size or vendor performance claims, the analysis focuses on **structural decision points**—specifically transistor architecture and system-level manufacturing choices—across Intel, TSMC, and Samsung.
 
+The underlying data is curated from foundry-specific datasets and consolidated into a unified, Tableau-ready CSV to support cross-foundry comparison on a shared timeline.
+
 By visualizing each foundry’s process milestones on a shared timeline, this project aims to reveal non-obvious patterns in how advanced-node progress is achieved, delayed, or fundamentally redirected under physical, economic, and manufacturability constraints.
+
+
+---
+## Data Structure and Preparation
+
+### Source Datasets
+The project initially maintains three foundry-specific datasets:
+- `process_nodes_TSMC.csv`
+- `process_nodes_Samsung.csv`
+- `process_nodes_Intel.csv`
+
+Each file records publicly disclosed process milestones using a consistent schema, including node family, technology variant, transistor architecture, EUV usage, and first production year.
+
+### Unified Dataset for Visualization
+For visualization and comparative analysis, the three foundry-specific datasets are merged into a single consolidated dataset:
+
+- `foundry_technology_timeline.csv`
+
+This unified dataset:
+- Aligns column definitions across foundries
+- Preserves foundry identity as an explicit categorical field
+- Enables direct import into Tableau for timeline and inflection-point visualization
+- Serves as the canonical input for all figures in this repository
+
+The original foundry-level CSV files are retained for transparency, provenance, and future extension.
 
 ---
 
 ## Visualization
+The core artifact of this project is a timeline visualization constructed from the unified dataset, with the following design characteristics:
 
-The core artifact of this project is a timeline visualization in which:
+- Each foundry is assigned to a fixed horizontal lane
+- Discrete process milestones are plotted along the timeline by year
+- Key attributes, such as transistor architecture and EUV adoption, are emphasized through visual encoding
 
-- Each foundry is assigned to a primary horizontal lane  
-- Discrete process milestones are plotted by year  
-- Key attributes such as transistor architecture and EUV adoption are emphasized  
+This visualization is specifically designed for Tableau and supports controlled jittering and categorical visual encoding to handle overlapping milestones occurring in the same or adjacent years across different foundries, enabling direct comparison of their respective technology evolution paths.
+
+The visualization clearly reveals periods of prolonged architectural stability, critical moments of forced transition, and divergences in strategic timing among the foundries.
 
 ![Foundry-Level Process Inflection Timeline](visualizations/exports/foundry_process_timeline.png)
+
+See Methodology → Data Preparation for details on node-level representation and visualization-driven data reduction.
+
 ---
 
 ## Research Questions
@@ -36,14 +69,25 @@ This project explicitly considers the limitations of publicly available data, in
 
 ### Data Sources
 
-This project relies exclusively on **publicly available sources**, including:
+This project relies exclusively on publicly available sources, including:
 
-- Foundry press releases and technology disclosures  
-- Conference presentations (IEDM, VLSI, etc.)  
-- Public roadmaps and technical whitepapers  
-- Industry analysis articles and archival reporting  
+- Foundry press releases and technology disclosures
+- Conference presentations (IEDM, VLSI, etc.)
+- Public roadmaps and technical whitepapers
+- Industry analysis articles and archival reporting
 
+Raw data is curated at the foundry level and subsequently integrated into a unified dataset for visualization and comparative analysis.
 No proprietary yield, cost, or internal design data is used.
+
+**Visualization-Oriented Node Representation**
+
+To support visual clarity and effective comparison in the Tableau timeline, the unified dataset adopts a node-level representation rather than a full node-family listing.
+
+In cases where a single process generation includes multiple closely related node families or variants, only one representative record is retained for visualization. This representative entry serves as the anchor point for that generation on the timeline, while family-level or derivative entries are intentionally omitted.
+
+This design choice reduces visual clutter, prevents excessive overplotting, and enables stable horizontal lane encoding and controlled jitter behavior within Tableau. The simplification is applied consistently across foundries where applicable and is intended solely to improve readability and interpretability in the visualization.
+
+Omitted node-family variants are not considered technologically insignificant; they are excluded only to maintain a clean and comparable timeline view and do not affect the underlying analytical conclusions.
 
 ### Modeling Assumptions
 
@@ -52,6 +96,7 @@ No proprietary yield, cost, or internal design data is used.
 - Public announcements are interpreted conservatively, with uncertainty noted when applicable  
 
 The analysis prioritizes **comparability and interpretability** over absolute technical precision.
+
 
 ---
 
