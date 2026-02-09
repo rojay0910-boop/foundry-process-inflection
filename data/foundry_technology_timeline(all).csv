@@ -1,0 +1,64 @@
+﻿company,year,technology_stage,transistor_architecture,technology_variant,euv_used,source_type,y_position,notes
+TSMC,2011,Planar,Planar CMOS,N28 (28GP),No,process_nodes_TSMC,1,First foundry to provide 28nm general-purpose logic process
+TSMC,2012,Planar,Planar CMOS,N28 (28HPC),No,process_nodes_TSMC,1,High Performance Compact variant optimized for performance and power
+TSMC,2013,Planar,Planar CMOS,N28 (28FinFETPC+),No,process_nodes_TSMC,1,Enhanced HPC variant with improved performance and power efficiency
+TSMC,2014,Planar,Planar CMOS,N28 (28ULP),No,process_nodes_TSMC,1,Ultra-Low Power platform widely adopted in battery-powered IoT SoCs
+TSMC,2014,Planar,Planar CMOS,N28 (28RF;28eFlash;28RRAM),No,process_nodes_TSMC,1,Automotive-grade and specialty technologies including RF mmWave and embedded NVM
+TSMC,2016,Planar,Planar CMOS,N22 (22ULP),No,process_nodes_TSMC,1,Derived from 28nm ULP with improved performance and cost efficiency
+TSMC,2017,Planar,Planar CMOS,N22 (22ULL),No,process_nodes_TSMC,1,Ultra-Low Leakage variant with ULL devices and ULL SRAM for extreme low-power applications
+TSMC,2014,Planar,Planar CMOS,N20 (20nm),No,process_nodes_TSMC,1,First foundry to enter 20nm volume production; used double patterning; fastest ramping node at TSMC
+TSMC,2014,FinFET,FinFET,N16 (16FF),No,process_nodes_TSMC,1,First foundry to deliver fully functional 16nm FinFET customer processor
+TSMC,2016,FinFET,FinFET,N16 (16FFC),No,process_nodes_TSMC,1,FinFET Compact; optical shrink and process simplification for die cost scaling
+TSMC,2017,FinFET,FinFET,N12 (12FFC+),No,process_nodes_TSMC,1,Enhanced gate density speed and power; foundation for N12e platform
+TSMC,2017,FinFET,FinFET,N12 (N12e),No,process_nodes_TSMC,1,Platform variant with ultra-low leakage low Vdd RF models analog enhancements and embedded NVM
+TSMC,2018,FinFET,FinFET,N7 (N7),No,process_nodes_TSMC,1,First 7nm FinFET volume production; applications expanded after initial adoption
+TSMC,2019,FinFET,FinFET,N7 (N7+),Yes,process_nodes_TSMC,1,First foundry process using EUV lithography; applications expanded after initial adoption
+TSMC,2020,FinFET,FinFET,N6 (N6),Yes,process_nodes_TSMC,1,Enhanced 7nm-derived node
+TSMC,2024,FinFET,FinFET,N6 (N6e),Yes,process_nodes_TSMC,1,PDK completed in 2023
+TSMC,2024,FinFET,FinFET,N6 (N6ULP),Yes,process_nodes_TSMC,1,Ultra-low power optimized variant
+TSMC,2020,FinFET,FinFET,N5 (N5),Yes,process_nodes_TSMC,1,First foundry 5nm FinFET in volume production; second TSMC EUV node
+TSMC,2021,FinFET,FinFET,N5 (N5P),Yes,process_nodes_TSMC,1,Performance-enhanced variant
+TSMC,2022,FinFET,FinFET,N4 (N4P),Yes,process_nodes_TSMC,1,Improved power and density with cost optimization
+TSMC,2023,FinFET,FinFET,N4 (N4C),Yes,process_nodes_TSMC,1,More cost-effective variant
+TSMC,2023,FinFET,FinFET,N4 (N4X),Yes,process_nodes_TSMC,1,HPC-tailored variant
+TSMC,2023,FinFET,FinFET,N5 (N5A),Yes,process_nodes_TSMC,1,Automotive-qualified variant
+TSMC,2022,FinFET,FinFET,N3 (N3),Yes,process_nodes_TSMC,1,First foundry to enter 3nm FinFET high-volume production; automotive qualification followed
+TSMC,2023,FinFET,FinFET,N3 (N3E),Yes,process_nodes_TSMC,1,Enhanced version for better power and density
+TSMC,2024,FinFET,FinFET,N3 (N3P),Yes,process_nodes_TSMC,1,Further performance-optimized variant
+TSMC,2024,FinFET,FinFET,N3 (N3X),Yes,process_nodes_TSMC,1,HPC-tailored variant
+TSMC,2024,FinFET,FinFET,N3 (N3C),Yes,process_nodes_TSMC,1,Cost-optimized variant for value-tier products
+TSMC,2025,GAA,Nanosheet,N2 (N2),Yes,process_nodes_TSMC,1,First-generation nanosheet (GAA) transistor; volume production started 4Q25
+TSMC,2026,GAA,Nanosheet,N2 (N2P),Yes,process_nodes_TSMC,1,Enhanced variant with further performance and power benefits; volume production scheduled for 2H26
+Samsung,2012,Planar,Planar CMOS,28nm (28LP),No,process_nodes_Samsung,2,Low-power HKMG process; long-lived node with simple migration path and strong industry adoption
+Samsung,2012,Planar,Planar CMOS,28nm (28RF),No,process_nodes_Samsung,2,Radio Frequency variant with RF PDKs and verification methods for connectivity-focused applications
+Samsung,2012,Planar,Planar CMOS,28nm (28eNVM;28eMRAM),No,process_nodes_Samsung,2,eNVM platform including eMRAM; lower voltage and up to 1000x faster write speed than eFlash
+Samsung,2014,FinFET,FinFET,14nm (14LPE),No,process_nodes_Samsung,2,Early FinFET variant optimized for mobile performance and power
+Samsung,2014,FinFET,FinFET,14nm (14LPP),No,process_nodes_Samsung,2,Enhanced performance and power efficiency variant for mobile SoCs
+Samsung,2014,FinFET,FinFET,14nm (14LPC),No,process_nodes_Samsung,2,Cost-optimized FinFET variant for mobile applications
+Samsung,2014,FinFET,FinFET,14nm (14LPU),No,process_nodes_Samsung,2,Ultra-low power variant optimized for power-sensitive designs
+Samsung,2016,FinFET,FinFET,14nm (14LPU-eMRAM),No,process_nodes_Samsung,2,FinFET-based eMRAM solution supporting automotive grade 1 and emerging applications
+Samsung,2015,FD-SOI,FD-SOI,28FDS (28FDS),No,process_nodes_Samsung,2,FD-SOI architecture offering improved performance power and area with ultra-low leakage; expanded into mmWave applications
+Samsung,2015,FD-SOI,FD-SOI,28FDS (28FDS-eMRAM),No,process_nodes_Samsung,2,Industry's first embedded MRAM with extremely small bitcell fast write speed (~1000x eFlash) and high endurance
+Samsung,2018,FinFET,FinFET,8nm (8nm),No,process_nodes_Samsung,2,Most balanced pre-EUV FinFET node combining performance scalability and cost
+Samsung,2018,FinFET,FinFET (RFeFET),8nm (8nm-RF),No,process_nodes_Samsung,2,RF-specialized variant using Samsung-exclusive RFeFET architecture achieving 35% power and area reduction
+Samsung,2019,FinFET,FinFET,SF7 (SF7),Yes,process_nodes_Samsung,2,First 7nm EUV process; reduced mask count improved yield and enabled major area and power scaling
+Samsung,2021,FinFET,FinFET,SF5 (SF5),Yes,process_nodes_Samsung,2,5nm FinFET with ~25% density gain and ~10% performance uplift over 7nm; ~20% power reduction; positioned for HPC and automotive platforms
+Samsung,2021,FinFET,FinFET,SF4 (SF4),Yes,process_nodes_Samsung,2,Base 4nm FinFET process featuring smallest standard cell height and new MOL architecture
+Samsung,2021,FinFET,FinFET,SF4 (SF4E),Yes,process_nodes_Samsung,2,Mobile-optimized efficiency-focused variant later evolved into SF4 and SF4P
+Samsung,2021,FinFET,FinFET,SF4 (SF4P),Yes,process_nodes_Samsung,2,Performance-enhanced mobile variant with improved device characteristics
+Samsung,2021,FinFET,FinFET,SF4 (SF4X),Yes,process_nodes_Samsung,2,Highest-performance 4nm variant with higher drivability transistors and improved BEOL for reduced RC delay
+Samsung,2021,FinFET,FinFET,SF4 (SF4A),Yes,process_nodes_Samsung,2,Automotive-qualified 4nm FinFET variant with long-term reliability focus
+Samsung,2022,GAA,MBCFET,SF3 (SF3E),Yes,process_nodes_Samsung,2,First commercial GAA nanosheet technology; ~45% power reduction vs 5nm and ~23% performance gain with area reduction
+Samsung,2024,GAA,MBCFET,SF3 (SF3),Yes,process_nodes_Samsung,2,Second-generation GAA with ~50% power reduction vs 5nm and ~30% performance gain in ~35% smaller area
+Samsung,2025,GAA,MBCFET,SF2 (SF2),Yes,process_nodes_Samsung,2,
+Intel,2012,FinFET,FinFET,22nm (22nm),No,process_nodes_Intel,3,First Tri-Gate transistor
+Intel,2014,FinFET,FinFET,14nm (14nm),No,process_nodes_Intel,3,Long-lived Intel process
+Intel,2019,FinFET,FinFET,Intel 10 (Intel 10),No,process_nodes_Intel,3,Delayed production node
+Intel,2021,FinFET,FinFET,Intel 7 (Intel 7),No,process_nodes_Intel,3,Renamed 10nm Enhanced SuperFin
+Intel,2023,FinFET,FinFET,Intel 4 (Intel 4),Yes,process_nodes_Intel,3,First Intel EUV node
+Intel,2024,FinFET,FinFET,Intel 3 (Intel 3),Yes,process_nodes_Intel,3,Refined Intel 4 generation
+Intel,2024,FinFET,FinFET,Intel 3 (Intel 3-T),Yes,process_nodes_Intel,3,Refined Intel 4 generation
+Intel,2024,FinFET,FinFET,Intel 3 (Intel 3-E),Yes,process_nodes_Intel,3,Refined Intel 4 generation
+Intel,2024,FinFET,FinFET,Intel 3 (Intel 3-PT),Yes,process_nodes_Intel,3,Refined Intel 4 generation
+Intel,2024,GAA,RibbonFET,Intel 20A (Intel 20A),Yes,process_nodes_Intel,3,Angstrom-era node with RibbonFET
+Intel,2025,GAA,RibbonFET,Intel 18A (Intel 18A2),Yes,process_nodes_Intel,3,Advanced Angstrom-era process
