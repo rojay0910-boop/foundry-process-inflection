@@ -1,22 +1,23 @@
-company,node_family,technology_variant,transistor_architecture,euv_used,first_volume_year,application_focus,production_status,notes
-Samsung,28nm,28LP,Planar CMOS,No,2012,General;Mobile;Consumer,Volume Production,Low-power HKMG process; long-lived node with simple migration path and strong industry adoption
-Samsung,28nm,28RF,Planar CMOS,No,2012,RF;Connectivity;Automotive;IoT,Volume Production,Radio Frequency variant with RF PDKs and verification methods for connectivity-focused applications
-Samsung,28nm,28eNVM;28eMRAM,Planar CMOS,No,2012,MCU;Automotive;IoT;Embedded Memory,Volume Production,eNVM platform including eMRAM; lower voltage and up to 1000x faster write speed than eFlash
-Samsung,14nm,14LPE,FinFET,No,2014,Mobile;High-Performance,Volume Production,Early FinFET variant optimized for mobile performance and power
-Samsung,14nm,14LPP,FinFET,No,2014,Mobile;High-Performance,Volume Production,Enhanced performance and power efficiency variant for mobile SoCs
-Samsung,14nm,14LPC,FinFET,No,2014,Mobile;Cost-Optimized,Volume Production,Cost-optimized FinFET variant for mobile applications
-Samsung,14nm,14LPU,FinFET,No,2014,Mobile;Ultra-Low-Power;IoT,Volume Production,Ultra-low power variant optimized for power-sensitive designs
-Samsung,14nm,14LPU-eMRAM,FinFET,No,2016,Automotive;5G;IoT;AI;Embedded Memory,Volume Production,FinFET-based eMRAM solution supporting automotive grade 1 and emerging applications
-Samsung,28FDS,28FDS,FD-SOI,No,2015,Network;Consumer;MCU;IoT;mmWave,Volume Production,FD-SOI architecture offering improved performance power and area with ultra-low leakage; expanded into mmWave applications
-Samsung,28FDS,28FDS-eMRAM,FD-SOI,No,2015,MCU;IoT;Embedded Memory,Volume Production,Industry's first embedded MRAM with extremely small bitcell fast write speed (~1000x eFlash) and high endurance
-Samsung,8nm,8nm,FinFET,No,2018,General;Mobile;Consumer;HPC,Volume Production,Most balanced pre-EUV FinFET node combining performance scalability and cost
-Samsung,8nm,8nm-RF,FinFET (RFeFET),No,2018,5G;RF;mmWave;Mobile,Volume Production,RF-specialized variant using Samsung-exclusive RFeFET architecture achieving 35% power and area reduction
-Samsung,SF7,SF7,FinFET,Yes,2019,General;Mobile;HPC,Volume Production,First 7nm EUV process; reduced mask count improved yield and enabled major area and power scaling
-Samsung,SF5,SF5,FinFET,Yes,2021,HPC;Automotive;IoT,Volume Production,5nm FinFET with ~25% density gain and ~10% performance uplift over 7nm; ~20% power reduction; positioned for HPC and automotive platforms
-Samsung,SF4,SF4,FinFET,Yes,2021,Mobile,Volume Production,Base 4nm FinFET process featuring smallest standard cell height and new MOL architecture
-Samsung,SF4,SF4E,FinFET,Yes,2021,Mobile,Volume Production,Mobile-optimized efficiency-focused variant later evolved into SF4 and SF4P
-Samsung,SF4,SF4P,FinFET,Yes,2021,Mobile,Volume Production,Performance-enhanced mobile variant with improved device characteristics
-Samsung,SF4,SF4X,FinFET,Yes,2021,HPC,Volume Production,Highest-performance 4nm variant with higher drivability transistors and improved BEOL for reduced RC delay
-Samsung,SF4,SF4A,FinFET,Yes,2021,Automotive,Volume Production,Automotive-qualified 4nm FinFET variant with long-term reliability focus
-Samsung,SF3,SF3,GAANanosheet,Yes,2022,Mobile;5G;AI;HPC,Volume Production,First commercial GAA nanosheet technology; ~45% power reduction vs 5nm and ~23% performance gain with area reduction
-Samsung,SF3,SF3G2,GAANanosheet,Yes,2023,Mobile;AI;HPC,Volume Production,Second-generation GAA with ~50% power reduction vs 5nm and ~30% performance gain in ~35% smaller area
+company,node_family,technology_variant,technology_stage,transistor_architecture,euv_used,first_volume_year,application_focus,production_status,notes
+Samsung,28nm,28LP,Planar,Planar CMOS,No,2012,General;Mobile;Consumer,Volume Production,Low-power HKMG process; long-lived node with simple migration path and strong industry adoption
+Samsung,28nm,28RF,Planar,Planar CMOS,No,2012,RF;Connectivity;Automotive;IoT,Volume Production,Radio Frequency variant with RF PDKs and verification methods for connectivity-focused applications
+Samsung,28nm,28eNVM;28eMRAM,Planar,Planar CMOS,No,2012,MCU;Automotive;IoT;Embedded Memory,Volume Production,eNVM platform including eMRAM; lower voltage and up to 1000x faster write speed than eFlash
+Samsung,14nm,14LPE,FinFET,FinFET,No,2014,Mobile;High-Performance,Volume Production,Early FinFET variant optimized for mobile performance and power
+Samsung,14nm,14LPP,FinFET,FinFET,No,2014,Mobile;High-Performance,Volume Production,Enhanced performance and power efficiency variant for mobile SoCs
+Samsung,14nm,14LPC,FinFET,FinFET,No,2014,Mobile;Cost-Optimized,Volume Production,Cost-optimized FinFET variant for mobile applications
+Samsung,14nm,14LPU,FinFET,FinFET,No,2014,Mobile;Ultra-Low-Power;IoT,Volume Production,Ultra-low power variant optimized for power-sensitive designs
+Samsung,14nm,14LPU-eMRAM,FinFET,FinFET,No,2016,Automotive;5G;IoT;AI;Embedded Memory,Volume Production,FinFET-based eMRAM solution supporting automotive grade 1 and emerging applications
+Samsung,28FDS,28FDS,FD-SOI,FD-SOI,No,2015,Network;Consumer;MCU;IoT;mmWave,Volume Production,FD-SOI architecture offering improved performance power and area with ultra-low leakage; expanded into mmWave applications
+Samsung,28FDS,28FDS-eMRAM,FD-SOI,FD-SOI,No,2015,MCU;IoT;Embedded Memory,Volume Production,Industry's first embedded MRAM with extremely small bitcell fast write speed (~1000x eFlash) and high endurance
+Samsung,8nm,8nm,FinFET,FinFET,No,2018,General;Mobile;Consumer;HPC,Volume Production,Most balanced pre-EUV FinFET node combining performance scalability and cost
+Samsung,8nm,8nm-RF,FinFET,FinFET (RFeFET),No,2018,5G;RF;mmWave;Mobile,Volume Production,RF-specialized variant using Samsung-exclusive RFeFET architecture achieving 35% power and area reduction
+Samsung,SF7,SF7,FinFET,FinFET,Yes,2019,General;Mobile;HPC,Volume Production,First 7nm EUV process; reduced mask count improved yield and enabled major area and power scaling
+Samsung,SF5,SF5,FinFET,FinFET,Yes,2021,HPC;Automotive;IoT,Volume Production,5nm FinFET with ~25% density gain and ~10% performance uplift over 7nm; ~20% power reduction; positioned for HPC and automotive platforms
+Samsung,SF4,SF4,FinFET,FinFET,Yes,2021,Mobile,Volume Production,Base 4nm FinFET process featuring smallest standard cell height and new MOL architecture
+Samsung,SF4,SF4E,FinFET,FinFET,Yes,2021,Mobile,Volume Production,Mobile-optimized efficiency-focused variant later evolved into SF4 and SF4P
+Samsung,SF4,SF4P,FinFET,FinFET,Yes,2021,Mobile,Volume Production,Performance-enhanced mobile variant with improved device characteristics
+Samsung,SF4,SF4X,FinFET,FinFET,Yes,2021,HPC,Volume Production,Highest-performance 4nm variant with higher drivability transistors and improved BEOL for reduced RC delay
+Samsung,SF4,SF4A,FinFET,FinFET,Yes,2021,Automotive,Volume Production,Automotive-qualified 4nm FinFET variant with long-term reliability focus
+Samsung,SF3,SF3E,GAA,MBCFET,Yes,2022,,Volume Production,First commercial GAA nanosheet technology; ~45% power reduction vs 5nm and ~23% performance gain with area reduction
+Samsung,SF3,SF3,GAA,MBCFET,Yes,2024,,Volume Production,Second-generation GAA with ~50% power reduction vs 5nm and ~30% performance gain in ~35% smaller area
+Samsung,SF2,SF2,GAA,MBCFET,Yes,2025,,,

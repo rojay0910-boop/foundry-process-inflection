@@ -1,12 +1,12 @@
-company,company_type,node_label,node_nm,year,transistor_architecture,technology_variant,packaging_feature,application_focus,notes,source,confidence
-Intel,IDM,22nm,22,2012,FinFET,,,,,,
-Intel,IDM,14nm,14,2014,FinFET,,,,,,
-Intel,IDM,Intel 10,10,2019,FinFET,,,,,,
-Intel,IDM,Intel 7,10,2021,FinFET,Performance-optimized,,,,https://en.wikichip.org/wiki/intel/process;https://web.archive.org/web/20210727235415/https://www.techbang.com/posts/88719-intel-announced-a-new-cpu-process-roadmap-10nm-changed-to-7,
-Intel,IDM,Intel 4,7,2023,FinFET,EUV-enabled;Density-optimized,,,,https://en.wikichip.org/wiki/intel/process,
-Intel,IDM,Intel 3,~3,2024,FinFET,HPC;TSV;3D-integration,None,General Purpose,Intel 3 is the final FinFET-based node; ~10% density gain and ~18% perf-W improvement over Intel 4,Computex 2024IEEE VLSI,High
-Intel,IDM,Intel 3-T,~3,2024,FinFET,TSV;3D-integration,TSV (3D stacking),HPC;AI;Imaging,Variant optimized for 3D stacking with TSV; targets heterogeneous integration of compute and memory,Computex 2024;IEEE VLSI,High
-Intel,IDM,Intel 3-E,~3,2024,FinFET,Extended I/O ;mixed-signal,None,IO;Controllers,Includes enhanced IO and analog interfaces; suited for chipsets and controller products,Computex 2024 / IEEE VLSI,High
-Intel,IDM,Intel 3-PT,~3,2024,FinFET,HPC;performance-tuned,TSV (9µm pitch),HPC;AI,High-performance variant with 9µm TSV pitch enabling denser 3D stacking; targets AI and HPC processors,Computex 2024 / IEEE VLSI,High
-Intel,IDM,Intel 20A,3,2024,GAA,Backside Power (PowerVia),,,,,
-Intel,IDM,Intel 18A,2,2025,GAA,Backside Power (PowerVia),,,,,
+company,node_family,technology_variant,technology_stage,transistor_architecture,euv_used,first_volume_year,application_focus,production_status,notes,source,confidence
+Intel,22nm,22nm,FinFET,FinFET,NO,2012,,Volume Production,First Tri-Gate transistor,Intel Press Release,high
+Intel,14nm,14nm,FinFET,FinFET,No,2014,,Volume Production,Long-lived Intel process,Intel Annual Report,high
+Intel,Intel 10,Intel 10,FinFET,FinFET,No,2019,,Volume Production,Delayed production node,Intel Technology History,medium
+Intel,Intel 7,Intel 7,FinFET,FinFET,No,2021,,Volume Production,Renamed 10nm Enhanced SuperFin,Intel Press Release,high
+Intel,Intel 4,Intel 4,FinFET,FinFET,Yes,2023,,Volume Production,First Intel EUV node,Intel Technology Roadmap,medium
+Intel,Intel 3,Intel 3,FinFET,FinFET,Yes,2024,General Purpose,Volume Production,Refined Intel 4 generation,Intel Roadmap,low
+Intel,Intel 3,Intel 3-T,FinFET,FinFET,Yes,2024,HPC;AI;Imaging,Volume Production,Refined Intel 4 generation,Intel Roadmap,low
+Intel,Intel 3,Intel 3-E,FinFET,FinFET,Yes,2024,IO;Controllers,Volume Production,Refined Intel 4 generation,Intel Roadmap,low
+Intel,Intel 3,Intel 3-PT,FinFET,FinFET,Yes,2024,HPC;AI,Volume Production,Refined Intel 4 generation,Intel Roadmap,low
+Intel,Intel 20A,Intel 20A,GAA,RibbonFET,Yes,2024,,Volume Production,Angstrom-era node with RibbonFET,Intel Roadmap,low
+Intel,Intel 18A,Intel 18A2,GAA,RibbonFET,Yes,2025,,Volume Production,Advanced Angstrom-era process,Intel Roadmap,low
