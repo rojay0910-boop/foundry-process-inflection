@@ -1,5 +1,5 @@
 company,node_family,technology_variant,technology_stage,transistor_architecture,euv_used,first_volume_year,application_focus,production_status,notes,source,confidence
-Intel,22nm,22nm,FinFET,FinFET,NO,2012,,Volume Production,First Tri-Gate transistor,Intel Press Release,high
+Intel,22nm,22nm,FinFET,FinFET,No,2012,,Volume Production,First Tri-Gate transistor,Intel Press Release,high
 Intel,14nm,14nm,FinFET,FinFET,No,2014,,Volume Production,Long-lived Intel process,Intel Annual Report,high
 Intel,Intel 10,Intel 10,FinFET,FinFET,No,2019,,Volume Production,Delayed production node,Intel Technology History,medium
 Intel,Intel 7,Intel 7,FinFET,FinFET,No,2021,,Volume Production,Renamed 10nm Enhanced SuperFin,Intel Press Release,high
