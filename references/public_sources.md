@@ -2,4 +2,16 @@
 2.https://semiconductor.samsung.com/foundry/process-technology/logic-node/  
 3.https://semiwiki.com/semiconductor-manufacturers/321400-samsung-versus-tsmc-update-2022/  
 4.https://www.aminext.blog/  
+<<<<<<< HEAD
 5.https://www.intel.com/content/www/us/en/foundry/process.html  
+=======
+5.https://www.intel.com/content/www/us/en/foundry/process.html  
+6.https://www.tomshardware.com/news/intel-process-packaging-roadmap-2025  
+7.https://semiwiki.com/wikis/industry-wikis/intel-7-process-technology-wiki/  
+8.https://en.wikipedia.org/wiki/5_nm_process  
+  https://en.wikipedia.org/wiki/3_nm_process  
+  https://en.wikipedia.org/wiki/2_nm_process  
+9.https://zenn.dev/takenobu_hs/articles/2acdcd8bce0286  
+10.https://en.wikipedia.org/wiki/14_nm_process  
+11.https://note.com/labmouse/n/n2a29983d953a  
+>>>>>>> 3d898f735507b30d94e95b0f658a5876477d21c8
